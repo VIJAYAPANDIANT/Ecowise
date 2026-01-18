@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoWise Sustainability Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="chat-container glass-panel">
+        <header class="chat-header">
+            <div class="logo-area">
+                <div class="logo-icon">🌱</div>
+                <h1>EcoWise</h1>
+            </div>
+            <p class="subtitle">Your AI Guide to Responsible Consumption</p>
+        </header>
+
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot-message">
+                <div class="avatar">🌱</div>
+                <div class="content">
+                    <p>Hello! I'm EcoWise. I can help you with waste disposal and sustainable practices.</p>
+                    <p>Try asking: <em>"How do I recycle plastic bottles?"</em> or <em>"What about e-waste?"</em></p>
+                </div>
+            </div>
+            <!-- Messages will be added here dynamically -->
+        </div>
+
+        <div class="input-area">
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Ask about different waste types..." autocomplete="off">
+                <button type="submit" aria-label="Send message">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+            <p class="disclaimer">I am an AI assistant. Please verify hazardous disposal with local authorities.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
