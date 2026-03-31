@@ -38,11 +38,11 @@ A modern web browser (Chrome, Firefox, Safari, or Edge).
 ### Installation
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/ecowise.git
+    git clone https://github.com/VIJAYAPANDIANT/Ecowise.git
     ```
 2.  **Navigate to the project directory**:
     ```bash
-    cd ecowise
+    cd Ecowise
     ```
 3.  **Launch the Assistant**:
     - Open `index.html` in your favorite browser.
@@ -52,7 +52,6 @@ A modern web browser (Chrome, Firefox, Safari, or Edge).
 
 ```text
 Ecowise/
-├── assets/           # Project visual assets (banners, icons)
 ├── index.html        # Main entry point & structural markup
 ├── script.js         # Core chat logic & knowledge base
 ├── styles.css        # Premium Glassmorphism styling & animations
